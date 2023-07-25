@@ -1,0 +1,106 @@
+@import url(style.css);
+
+.cover{
+    height: 70px;
+    background: black;
+}.blog-cover{
+    width:55%;
+    height: auto;
+    background: var(--bg-black);
+    margin: auto;
+    border-radius: 18px;
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}.blog-cover .img-cover-main-blog{
+    height: auto;
+    width: auto;
+    background: gray;
+    border-radius: 18px;
+}.content-2  {
+    text-align: right;
+    color: #fff;
+    margin: 15px;
+}.content-2 > p{
+    text-align: right;
+    height:100px;
+    overflow: hidden;
+}.blog-cover h1{
+    text-align: right;
+    line-height: 30px;
+    font-size: 29px;
+}
+.blog-cover .img-cover-main-blog img{
+    width: 180px;
+    height: 100%;
+    border-radius: 18px;
+}.blog-detail{
+    height:auto;
+    width: 60%;
+    background: #131313;
+    margin: auto;
+    border-radius: 18px;
+    margin-bottom: 10px;
+
+}.para{
+    
+    padding: 20px;
+}.para h2,p{
+    text-align: start;
+    color: #fff;
+   
+}.para h4{
+    color: #fff;
+
+}.blog-detail .para:nth-child(1){
+    display: none;
+}
+@media(max-width:776px){
+   .blog-cover{
+        width:85%;
+    }.blog-detail{
+        height:auto;
+        width: 86%;
+        background: #131313;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 10px;
+    
+    }
+    
+}@media(max-width:576px){
+    .blog-cover .content-2{
+        display: none;
+    }
+    .blog-cover{
+        width:65%;
+        height: auto;
+        /* background: var(--bg-black); */
+        /* margin: auto; */
+        border-radius: 18px;
+        display: block;
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }.blog-cover .img-cover-main-blog{
+        height: auto;
+        width: auto;
+        background: gray;
+        border-radius: 18px;
+        margin: auto;
+        /* margin-left: 90px; */
+    }.blog-cover .img-cover-main-blog img{
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+    }.blog-detail{
+        height:auto;
+        width: 75%;
+        background: #131313;
+        margin: auto;
+        border-radius: 18px;
+        margin-bottom: 10px;
+    
+    }.blog-detail .para:nth-child(1){
+        display: block;
+    }
+}
