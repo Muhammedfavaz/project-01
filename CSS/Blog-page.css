@@ -134,3 +134,18 @@ body{
         overflow: hidden;
     }
 }
+@media(max-width:576px){
+    .blog-cover {
+        flex-direction: column;
+        max-width:70%;
+        height: 50%
+    }.blog-cover .img-cover-main-blog{
+        height: auto;
+        width: 90%;
+        background: gray;
+        border-radius: 18px;
+        margin: auto;
+    }.blog-cover{
+        padding-top: 10px;   
+    }
+}

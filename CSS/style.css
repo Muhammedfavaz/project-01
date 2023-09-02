@@ -124,16 +124,17 @@
 /* info completed */
 
 .cards{
-    height: 400px;
+    padding: 12px;
+    height: 100%;
     width: 100%;
     background: #131313;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }.cards .card{
-    height: auto;
-    max-height: 387px;
-    width: 22%;
+    height: 100%;
+    /* max-height: 387px; */
+    width: 28%;
     background:var(--bg-black);
     text-align: center;
     border-radius: 5%;
@@ -141,7 +142,7 @@
     color: #F6F6F6;
     
 }.cards p{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -226,6 +227,8 @@
         align-items: center;
         justify-content: center;
         
+    }.small-info-head h1{
+        margin-top: -66px;
     }.cards{
         padding-top: 40px;
         padding-bottom: 40px;
@@ -246,8 +249,8 @@
         text-align: center;
         border-radius: 5%;
     }.cards .card p{
-       font-size: 500;
-       font-size: 24px;
+      
+       font-size: 15px;
        margin-bottom: 30px;
        letter-spacing: 0px;
     }.card:nth-of-type(1){
@@ -349,9 +352,13 @@
     }
     .nav-head.active{
         left: 0;
+       
+    }.nav-link-container.justify-content-between {
+        justify-content: initial !important; /* or any other value you want */
     }
+   
     .small-info{
-        height:705px;
+        height:855px;
         width: 100%;
         background: var(--bg-black);
         color: #F6F6F6;
@@ -361,17 +368,17 @@
         justify-content: center;
         margin-top: -180px;
         overflow: hidden;
+ 
+    }.small-info-head{
        
-        
-    }
-    .we-are {
+    } .we-are {
         left: 0%;
         padding: 28px;
         width: 100%;
     }
     .cards .card p{
-        font-size: 400;
-        font-size: 14px;
+        
+        font-size: 12px;
         margin-bottom: 30px;
     }.card:nth-of-type(1){
         margin-top: 40px;
